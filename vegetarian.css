@@ -18,3 +18,46 @@ i{
 .icon{
     margin-right: 100px;
 }
+.image img{
+    height: 290px;
+    width: 100%;
+    background-color:lightgray;
+  }
+input{
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+  }
+  .content i{
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 50%;
+    background-color: #e65100;
+    color: white;
+  }
+  .image{
+    position: relative;
+  }
+  .content{
+    position: absolute;
+    top: 120px;
+    left: 490px;
+    color: white;
+    font-size: medium;
+  }
+  .content span,p{
+    margin-left: 40px;
+  }
+   .content i:hover{
+    background-color: white;
+    color: #e65100; 
+   }
+   .image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)),url("./assets/images/header_image.1dc0f346d407fc577d16.jpg");
+   background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+
+}
