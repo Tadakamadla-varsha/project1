@@ -10,6 +10,10 @@ i{
     justify-content:space-between;
     background-color: #e65100;
     color: white;
+    position: fixed;
+    top:0;
+    width:98.8%;
+    z-index: 999;
 }
 .icon{
     margin-right: 100px;
