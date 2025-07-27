@@ -1,0 +1,20 @@
+.logo{
+    display: flex;
+    margin-left: 30px;
+}
+i{
+    margin-top: 17px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #e65100;
+    color: white;
+    position: fixed;
+    top:0;
+    width:98.8%;
+    z-index: 999;
+}
+.icon{
+    margin-right: 100px;
+}
