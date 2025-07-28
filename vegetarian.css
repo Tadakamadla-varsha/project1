@@ -122,12 +122,18 @@ input{
 .food-img{
   gap: 20px;
     border: 1px solid #fff;
-    height: 240px;
+    height: 250px;
     width: 200px;
     /* background-color: #fff; */
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .veg-section3{
   margin-top: 25px;
+}
+.food-img p{
+  /* margin-right: 20px;
+  margin-bottom: 20p */
+  margin-top: 4px;
+  margin-left: 10px;
 }
      
