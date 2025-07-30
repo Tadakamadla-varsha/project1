@@ -341,7 +341,7 @@ a:hover {
   margin-left: 35px;
   margin-top: 30px;
 }
-/* .columns{
+.columns{
   display: flex;
   margin-left: 45px;
   border: 1px solid grey;
@@ -361,4 +361,4 @@ a:hover {
 }
 .columns i{
   color: #e65100;
-} */
+} 
