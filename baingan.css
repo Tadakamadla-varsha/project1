@@ -63,11 +63,11 @@ input{
     body{
       background-color: #f5f5f5;
    } 
-   .header2{
+   /* .header2{
     background-color: #e65100;
     color: white; 
-    /* height: 100px; */
-   }
+    height: 100px; 
+   } */
  .header1{
     background-color: #e65100;
     color: white;
@@ -106,3 +106,259 @@ input{
   background-color: #e65100;
   margin-left: 50px;
 } 
+.underline1{
+  width: 500px;
+  height: 1px;
+  background-color: #e65100;
+  margin-left: 50px;
+}
+.information{
+  display: flex;
+} 
+ .categories{
+   display: flex;
+  margin-top: 80px;
+  margin-right: 60px;
+ } 
+ .baingan-bharta h2{
+  margin-left: 58px;
+  color: #e65100;
+ } 
+  /* .baingan-bharta .Tags{
+   border: 1px solid orange; 
+ }  */
+   .line3{
+    display: flex;
+  }
+  .tag{
+    margin-top: 17px;
+    margin-left: 10px;
+     border: 1px solid orangered;  
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    color: #e65100;
+  }
+  .baingan-bharta strong{
+    margin-left: 15px;
+  }
+  .mealdetails{
+    background-color: white;
+    width: 92%;
+    margin-left: 51px;
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction:row; */
+  }
+   .ingredients {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+  }  
+  .ingredients-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+    .ingredients p{ 
+     display: flex;
+    } 
+   
+    .ingredients span{
+    gap: 0px;
+   } 
+   /* .ingredients .row1{
+    gap: 10px;
+    margin-left: 15px;
+   n-left: 40px;
+   } */
+   .row2{
+    display: flex;
+   }
+   .row2 span{
+    gap: 10px;
+    margin-left: 15px;
+   }
+   .ingredients .row2{
+    margin-left: 40px;
+   }
+   .row3{
+    display: flex;
+   }
+   .row3 span{
+    gap: 30px;
+    margin-left: 15px;
+   }
+   .ingredients .row3{
+    margin-left: 40px;
+   }
+   .row2 .num5{
+    margin-left: 5px; 
+}
+
+.number p {
+    border: 1px solid white ;
+    display: flex;
+     align-items: center; 
+     justify-content: center; 
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: rgb(58, 145, 116);
+}
+
+.num1,
+.num2,
+.num3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    margin: 0%;
+    padding: 0%; 
+}
+.number p{
+    margin-right: 6px;
+}
+.menu p{
+font-size: 20px;
+}
+.numbers{
+    border: 1px solid  rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+     padding: 20px; 
+     height: 250px;
+    width: 600px;
+}
+.num1{
+  row-gap: 5px;
+} 
+
+.container {
+display: flex; 
+  gap: 40px;
+    align-items: flex-start;
+  flex-wrap: wrap;  
+   justify-content: center;
+  align-items: center; 
+} 
+
+ .image-box img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+} 
+
+.content-box {
+   flex: 1; 
+  min-width: 300px;
+}
+
+ .title {
+  color: #f26522;
+  margin-bottom: 5px;
+}
+
+.title-line {
+  border: 1px solid #f26522;
+  width: 50%;
+  margin-left: 0;
+}
+
+.category {
+  font-weight: bold;
+  color: #555;
+}
+
+ /* a {
+  color: #f26522;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} */ */
+
+ .tag {
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 5px 6px 5px 0;
+  border: 1px solid #f26522;
+  color: #f26522;
+  font-size: 0.85rem;
+ }
+   
+
+.ingredient-card {
+  background-color: #f26522;
+  color: white; 
+  padding: 10px;
+   /* border-radius: 8px;  */
+  margin-top: 20px;
+  margin-left: 58px;
+}
+
+.ingredient-card h3 {
+  margin-top: 0;
+}
+
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 8px;
+  margin-top: 10px;
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+   /* background-color: white;  */
+  color: #333;
+   /* border-radius: 20px; */
+  /* padding: 6px 8px   */
+}
+
+.ingredient span {
+   display: inline-flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: #288b72;
+  color: white;
+  font-size: 0.9rem;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baighan-bhartaimg img{
+  height: 450px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+/* .columns{
+  display: flex;
+  margin-left: 45px;
+  border: 1px solid grey;
+  width: 90%;
+   background-color: #f5f5f5;
+   height: 160px;
+}
+.col2{
+  margin-left: 400px;
+}
+.baingan-bharta{
+  margin-left: 18px;
+  margin-top: 30px;
+}
+.measures h2{
+  margin-left: 39px;
+}
+.columns i{
+  color: #e65100;
+} */
